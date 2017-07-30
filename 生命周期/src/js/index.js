@@ -29,7 +29,6 @@ componentDidMount(){
    var header = <ComponentHeader/>;
    var body = <BodyContent/>;
    var footer = <ComponentFooter/>;
-
   return (
     <div>
       {header}
