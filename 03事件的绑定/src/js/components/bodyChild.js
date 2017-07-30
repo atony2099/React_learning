@@ -8,6 +8,9 @@ export default class BodyChild extends React.Component {
         请输入:
         <input type = "text" onChange = {this.props.changeChildValue} />
       </p>
+      <p>
+        {this.props.age}
+      </p>
       </div>
     )
   }
